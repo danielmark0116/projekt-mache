@@ -1,1 +1,56 @@
 // menu-item ma Lato Bold 16 pkt
+
+.navbar {
+    & img {
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &-nav-custom {
+        font-weight: 700;
+        padding: 2rem 1.5rem;
+
+
+
+        & a.nav-link {
+            color: darken(white, 10);
+            transition: 0.3s;
+            position: relative;
+            padding: 1rem 0;
+
+            &:hover {
+                color: white;
+
+
+                & .border-menu {
+                    left: 10%;
+                    right: 10%;
+                }
+            }
+        }
+
+        & .active>.nav-link-custom {
+            color: darken(rgba($pink, 0.9), 0);
+
+            &:hover {
+                color: darken($pink, 0);
+            }
+        }
+    }
+}
+
+.border-menu {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    height: 2px;
+    background-color: $pink;
+    transition: 0.2s ease-in-out;
+}
+
+@keyframes menu-hover {
+    0% {}
+}

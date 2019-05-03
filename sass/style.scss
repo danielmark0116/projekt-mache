@@ -5,12 +5,41 @@ $white: #FFFFFF;
 $light: #F4F4F4;
 $pink: #ED145B;
 $grey: #777777;
-$dark : #5A5A5A;
+$light-dark : #5A5A5A;
+$dark : #2b2b2b;
 
 // FONTS:
 $sans-serif: 'Lato';
 // font-family: $sans-serif, sans-serif;
+/*
+hin 100 Italic
+light 300
+light 300 Italic
+regular 400
+regular 400 Italic
+bold 700
+bold 700 Italic
+black 900
+black 900 Italic
+*/
+
+// BOOTSTRAP Edits
+.container {
+    max-width: 1170px;
+}
 
 // IMPORTS
-
 @import 'navbar';
+@import 'header';
+@import 'components';
+
+// GLOBALs
+
+body {
+    font-family: $sans-serif, sans-serif;
+}
+
+hr {
+    border: 1px solid $pink;
+    width: 200px;
+}

@@ -1,0 +1,17 @@
+.main-btn-custom {
+    background-color: rgba($pink, 0.95);
+    border-radius: 30px;
+    padding: 0.8rem 3rem;
+    color: rgba(white, 0.9);
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+
+
+    &:hover {
+        color: rgba(white, 1);
+        background-color: rgba($pink, 1);
+
+        box-shadow: 0 0 40px rgba(grey, 0.2);
+    }
+}
