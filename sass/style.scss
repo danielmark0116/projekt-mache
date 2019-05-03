@@ -1,7 +1,16 @@
 // SASS Setup
 
+// COLORS:
 $white: #FFFFFF;
 $light: #F4F4F4;
-$pink: #ED135B;
+$pink: #ED145B;
 $grey: #777777;
 $dark : #5A5A5A;
+
+// FONTS:
+$sans-serif: 'Lato';
+// font-family: $sans-serif, sans-serif;
+
+// IMPORTS
+
+@import 'navbar';
