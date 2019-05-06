@@ -1,0 +1,15 @@
+.section {
+    &-welcome {
+        max-width: 100%;
+        overflow-x: hidden;
+
+        &-photo {
+            max-width: 900px;
+            position: absolute;
+        }
+
+        & hr {
+            margin: 2rem auto 0 0;
+        }
+    }
+}

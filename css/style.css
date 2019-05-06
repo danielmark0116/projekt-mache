@@ -1,3 +1,7 @@
+.is-white-bg {
+  background-color: white;
+}
+
 /*
 hin 100 Italic
 light 300
@@ -56,11 +60,6 @@ black 900 Italic
   transition: 0.2s ease-in-out;
 }
 
-@keyframes menu-hover {
-  0% {
-  }
-}
-
 .header {
   background: url("../images/header.png") center center;
   background-size: cover;
@@ -110,20 +109,55 @@ black 900 Italic
   font-weight: 700;
   font-size: 15px;
   text-transform: uppercase;
+  transform: scale(1);
+  transition: 0.3s;
 }
 
 .main-btn-custom:hover {
   color: white;
   background-color: #ed145b;
-  box-shadow: 0 0 40px rgba(128, 128, 128, 0.2);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.7);
+  transform: scale(1.02);
+}
+
+.section-welcome {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.section-welcome-photo {
+  max-width: 900px;
+  position: absolute;
+}
+
+.section-welcome hr {
+  margin: 2rem auto 0 0;
 }
 
 body {
   font-family: "Lato", sans-serif;
+  background-color: #F4F4F4;
 }
 
 hr {
   border: 1px solid #ED145B;
   width: 200px;
+}
+
+h2 {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 38px;
+  line-height: 55px;
+  color: #5A5A5A;
+}
+
+p {
+  color: #5A5A5A;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 1rem 0;
+  margin: 1rem 0;
 }
 /*# sourceMappingURL=style.css.map */

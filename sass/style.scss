@@ -8,6 +8,10 @@ $grey: #777777;
 $light-dark : #5A5A5A;
 $dark : #2b2b2b;
 
+.is-white-bg {
+    background-color: white;
+}
+
 // FONTS:
 $sans-serif: 'Lato';
 // font-family: $sans-serif, sans-serif;
@@ -32,14 +36,34 @@ black 900 Italic
 @import 'navbar';
 @import 'header';
 @import 'components';
+@import 'sections';
+@import 'rwd';
 
 // GLOBALs
 
 body {
     font-family: $sans-serif, sans-serif;
+    background-color: $light;
 }
 
 hr {
     border: 1px solid $pink;
     width: 200px;
+}
+
+h2 {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 38px;
+    line-height: 55px;
+    color: $light-dark;
+}
+
+p {
+    color: $light-dark;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 1rem 0;
+    margin: 1rem 0;
 }
