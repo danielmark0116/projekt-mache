@@ -1,11 +1,17 @@
 .section {
     &-welcome {
         max-width: 100%;
-        overflow-x: hidden;
+
+        &-photo-container {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 50vw;
+        }
 
         &-photo {
+            width: 100%;
             max-width: 900px;
-            position: absolute;
         }
 
         & hr {
