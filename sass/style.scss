@@ -49,6 +49,7 @@ body {
 hr {
     border: 1px solid $pink;
     width: 200px;
+    margin-top: 2rem;
 }
 
 h2 {
@@ -57,6 +58,7 @@ h2 {
     font-size: 38px;
     line-height: 55px;
     color: $light-dark;
+    text-transform: capitalize;
 }
 
 p {
